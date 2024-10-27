@@ -1,0 +1,14 @@
+{
+    "restaurantName": "La Bella Italia",
+    "cuisine": "Italian",
+    "rating": 4.7,
+    "priceRange": "$$",
+    "address": "123 Pasta Street, Foodville, FV 12345",
+    "description": "Experience authentic Italian flavors in a cozy, rustic setting. Our handmade pasta and wood-fired pizzas will transport you straight to Italy.",
+    "specialties": ["Handmade Pasta", "Wood-fired Pizza", "Tiramisu"],
+    "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=500&h=350&fit=crop",
+    "openingHours": {
+      "Mon-Fri": "11:00 AM - 10:00 PM",
+      "Sat-Sun": "10:00 AM - 11:00 PM"
+    }
+}
