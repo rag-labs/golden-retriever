@@ -1,0 +1,36 @@
+{
+    "type": "object",
+    "properties": {
+        "restaurantName": {
+            "type": "string"
+        },
+        "cuisine": {
+            "type": "string"
+        },
+        "rating": {
+            "type": "number"
+        },
+        "priceRange": {
+            "type": "string"
+        },
+        "address": {
+            "type": "string"
+        },
+        "description": {
+            "type": "string"
+        },
+        "specialties": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        },
+        "imageUrl": {
+            "type": "string"
+        },
+        "openingHours": {
+            "type": "object"
+        }
+    },
+    "required": ["restaurantName", "cuisine", "rating", "priceRange", "address", "description", "specialties", "openingHours"]
+}
